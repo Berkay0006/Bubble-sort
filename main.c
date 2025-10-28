@@ -14,8 +14,8 @@
 int main (void) {
     char letter_arr1[] = {'z', 'S', 's', 'a'}; 
     char number_arr1[] = {4, -1, 2, 9};
-    bubble_sort(letter, 4, letters_in_order);
-    bubble_sort(number, 4, numbers_in_ascending_order);
+    bubble_sort(letter_arr1, 4, letters_in_order);
+    bubble_sort(number_arr1, 4, numbers_in_ascending_order);
    
     for(int i = 0; i < 4; i++)
     printf("%c", letter_arr1[i]); puts("");
