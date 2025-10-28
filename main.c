@@ -12,16 +12,16 @@
     while(s);}
 
 int main (void) {
-    char letters[] = {'z', 'S', 's', 'a'}; 
-    char nums[] = {4, -1, 2, 9};
-    bubble_sort(letters, 4, letters_in_order);
-    bubble_sort(nums, 4, numbers_in_ascending_order);
+    char letter_arr1[] = {'z', 'S', 's', 'a'}; 
+    char number_arr1[] = {4, -1, 2, 9};
+    bubble_sort(letter, 4, letters_in_order);
+    bubble_sort(number, 4, numbers_in_ascending_order);
    
     for(int i = 0; i < 4; i++)
-    printf("%c", letters[i]); puts("");
+    printf("%c", letter_arr1[i]); puts("");
 
     for(int i = 0; i < 4; i++)
-    printf("%d ", nums[i]); puts("");
+    printf("%d ", number_arr1[i]); puts("");
 
 return 0; 
 }
