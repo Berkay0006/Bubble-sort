@@ -51,6 +51,16 @@
     }
 
 int main (void) {
+<<<<<<< HEAD
+=======
+    char letter_arr1[] = {'z', 'S', 's', 'a'}; 
+    char number_arr1[] = {4, -1, 2, 9};
+    bubble_sort(letter_arr1, 4, letters_in_order);
+    bubble_sort(number_arr1, 4, numbers_in_ascending_order);
+   
+    for(int i = 0; i < 4; i++)
+    printf("%c", letter_arr1[i]); puts("");
+>>>>>>> 6a70df87392f471691ab4dcdf4a2868c775b7f1c
 
     // Arrays to sort
     char letter_arr1[] = {'z', 'S', 's', 'a'}; 
@@ -65,11 +75,14 @@ int main (void) {
 
     // Print sorted letters
     for(int i = 0; i < 4; i++)
+<<<<<<< HEAD
     printf("%c", letter_arr1[i]); puts("");
 
 
     // Print sorted numbers
     for(int i = 0; i < 4; i++)
+=======
+>>>>>>> 6a70df87392f471691ab4dcdf4a2868c775b7f1c
     printf("%d ", number_arr1[i]); puts("");
 
 return 0; 
