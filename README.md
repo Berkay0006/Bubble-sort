@@ -1,0 +1,3 @@
+                                                    Bubble sort
+
+This project is a simple C program that demonstrates the bubble sort algorithm for both letters and numbers. The program sorts an array of letters alphabetically and an array of numbers in ascending order. It uses separate comparison functions to decide how the values should be ordered, and a swap function is used to exchange elements when they are in the wrong position. The sorting process continues until all elements are arranged correctly. The program also ignores uppercase and lowercase differences when sorting letters, making the alphabetical sorting case-insensitive.
